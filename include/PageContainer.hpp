@@ -1,8 +1,9 @@
 //
 // Created by polinka on 07.06.2021.
 //
-#ifndef TEMPLATE_PAGECONTAINER_H
-#define TEMPLATE_PAGECONTAINER_H
+// Copyright 2020 Your Name <your_email>
+#ifndef TEMPLATE_PAGECONTAINER_HPP_
+#define TEMPLATE_PAGECONTAINER_HPP_
 #include "header.hpp"
 #include "Log.hpp"
 #include "StatSender.hpp"
@@ -37,10 +38,11 @@ class PageContainer {
       : memory_counter_(memory_counter), stat_sender_(stat_sender){}
 
   ~PageContainer();
+
  private:
   UsedMemory* memory_counter_;
   StatSender* stat_sender_;
   std::vector<Item> data_;
   std::vector<std::string> raw_data_;
 };
-#endif  // TEMPLATE_PAGECONTAINER_H
+#endif  // TEMPLATE_PAGECONTAINER_HPP_

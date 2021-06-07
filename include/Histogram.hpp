@@ -1,6 +1,6 @@
 // Copyright 2020 Your Name <your_email>
-#ifndef TEMPLATE_HISTOGRAM_H
-#define TEMPLATE_HISTOGRAM_H
+#ifndef TEMPLATE_HISTOGRAM_HPP_
+#define TEMPLATE_HISTOGRAM_HPP_
 class Histogram{
  public:
   static Histogram& GetInstance();
@@ -22,4 +22,4 @@ class Histogram{
   int num_skip = 0;
   float avg = 0;
 };
-#endif  // TEMPLATE_HISTOGRAM_H
+#endif  // TEMPLATE_HISTOGRAM_HPP_

@@ -1,8 +1,9 @@
 //
 // Created by polinka on 07.06.2021.
 //
-#ifndef TEMPLATE_STATSENDER_H
-#define TEMPLATE_STATSENDER_H
+// Copyright 2020 Your Name <your_email>
+#ifndef TEMPLATE_STATSENDER_HPP_
+#define TEMPLATE_STATSENDER_HPP_
 #include "header.hpp"
 #include "Log.hpp"
 #include <fstream>
@@ -10,7 +11,6 @@
 
 class StatSender {
  public:
-
   void OnLoaded(const std::vector<Item>& new_items);
 
   void Skip(const Item& item);
@@ -22,4 +22,4 @@ class StatSender {
 
   std::ofstream fstr{"network", std::ios::binary};
 };
-#endif  // TEMPLATE_STATSENDER_H
+#endif  // TEMPLATE_STATSENDER_HPP_

@@ -1,6 +1,7 @@
 //
 // Created by polinka on 07.06.2021.
 //
+// Copyright 2020 Your Name <your_email>
 #include "StatSender.hpp"
 void StatSender::OnLoaded(const std::vector<Item>& new_items) {
   Log::GetInstance().WriteDebug("StatSender::OnDataLoad");

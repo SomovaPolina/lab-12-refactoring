@@ -1,6 +1,7 @@
 //
 // Created by polinka on 07.06.2021.
 //
+// Copyright 2020 Your Name <your_email>
 #include "PageContainer.hpp"
 
 const Item& PageContainer::ByIndex(const size_t& i) const {

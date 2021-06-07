@@ -1,6 +1,7 @@
 //
 // Created by polinka on 07.06.2021.
 //
+// Copyright 2020 Your Name <your_email>
 #include "UsedMemory.hpp"
 
 void UsedMemory::OnDataLoad(const std::vector<Item>& old_items,
