@@ -2,8 +2,8 @@
 // Created by polinka on 07.06.2021.
 //
 // Copyright 2020 Your Name <your_email>
-#ifndef TEMPLATE_LOG_HPP_
-#define TEMPLATE_LOG_HPP_
+#ifndef INCLUDE_LOG_HPP_
+#define INCLUDE_LOG_HPP_
 #include "header.hpp"
 
 class Log {
@@ -31,4 +31,4 @@ struct Item {
   std::string name;
   float score = 0;
 };
-#endif  // TEMPLATE_LOG_HPP_
+#endif  // INCLUDE_LOG_HPP_

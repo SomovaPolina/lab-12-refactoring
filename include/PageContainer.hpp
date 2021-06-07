@@ -2,8 +2,8 @@
 // Created by polinka on 07.06.2021.
 //
 // Copyright 2020 Your Name <your_email>
-#ifndef TEMPLATE_PAGECONTAINER_HPP_
-#define TEMPLATE_PAGECONTAINER_HPP_
+#ifndef INCLUDE_PAGECONTAINER_HPP_
+#define INCLUDE_PAGECONTAINER_HPP_
 #include "header.hpp"
 #include "Log.hpp"
 #include "StatSender.hpp"
@@ -45,4 +45,4 @@ class PageContainer {
   std::vector<Item> data_;
   std::vector<std::string> raw_data_;
 };
-#endif  // TEMPLATE_PAGECONTAINER_HPP_
+#endif  // INCLUDE_PAGECONTAINER_HPP_

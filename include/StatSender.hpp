@@ -2,8 +2,8 @@
 // Created by polinka on 07.06.2021.
 //
 // Copyright 2020 Your Name <your_email>
-#ifndef TEMPLATE_STATSENDER_HPP_
-#define TEMPLATE_STATSENDER_HPP_
+#ifndef INCLUDE_STATSENDER_HPP_
+#define INCLUDE_STATSENDER_HPP_
 #include "header.hpp"
 #include "Log.hpp"
 #include <fstream>
@@ -22,4 +22,4 @@ class StatSender {
 
   std::ofstream fstr{"network", std::ios::binary};
 };
-#endif  // TEMPLATE_STATSENDER_HPP_
+#endif  // INCLUDE_STATSENDER_HPP_
